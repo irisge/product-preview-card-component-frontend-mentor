@@ -54,7 +54,7 @@ div.text-container h2 {
     color: hsl(212, 21%, 14%);
     font-size: 32px;
     padding: 0 1rem 0 0;
-    line-height: 1.25;
+    line-height: 1;
 }
 
 div.text-container p {
@@ -68,21 +68,24 @@ div.price {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    font-family: 'Fraunces', 'sans-serif';
-    font-weight: 700;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 div.price p.current-price {
     font-size: 32px;
     color: hsl(158, 36%, 37%);
     margin: auto 1.5rem auto 0;
+    font-family: 'Fraunces', 'sans-serif';
+    font-weight: 700;
 }
 
 div.price p.former-price {
     text-decoration: line-through;
     font-size: 13px;
     margin: auto 0;
+    font-weight: 500;
+    font-family: 'Montserrat', 'sans-serif';
+    color: hsl(228, 12%, 48%);
 }
 
 button {
@@ -110,6 +113,7 @@ input {
 div.text-container button p {
     color: white;
     font-size: 14px;
+    font-weight: 700;
 }
 
 footer {
