@@ -23,7 +23,7 @@ section {
 }
 
 div.image-container {
-    background-image: url("./images/image-product-desktop.jpg") ;
+    background-image: url("./images/image-product-desktop.jpg");
     background-size: 300px 450px;
     width: 300px;
     height: 450px;
@@ -44,6 +44,7 @@ div.text-container h3 {
     font-weight: 500;
     padding: auto auto;
     font-size: 12px;
+    margin: auto 0;
 }
 
 div.text-container h2 {
@@ -51,6 +52,8 @@ div.text-container h2 {
     font-weight: 700;
     color: hsl(212, 21%, 14%);
     font-size: 32px;
+    padding: 0 1rem 0 0;
+    margin: 1rem 0;
 }
 
 div.text-container p {
@@ -89,8 +92,8 @@ button {
     align-items: center;
     justify-content: center;
     width: 100%;
-    border-radius: 1rem ;
-    margin: auto 0;
+    border-radius: 1rem;
+    margin: 1rem 0;
 
 }
 
@@ -100,13 +103,11 @@ button:hover {
 }
 
 input {
-    margin: 0 1.5rem;
+    margin: 0 1rem;
 }
 
 div.text-container button p {
     color: white;
-    font-size: 1.05rem;
-    font-weight: 700;
     font-size: 14px;
 }
 
@@ -114,7 +115,7 @@ footer {
     position: absolute;
     bottom: 0;
     color: hsl(212, 21%, 14%);
-    
+    display: none;
 }
 
 footer a {
@@ -124,19 +125,17 @@ footer a {
 
 /* media queries */
 
-@media screen and (max-width: 425px)
-{ 
+@media screen and (max-width: 425px) {
     section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 28px 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 28px 16px;
     }
 }
 
-@media screen and (max-width: 425px)
-{ 
+@media screen and (max-width: 425px) {
     div.image-container {
         background-image: url("./images/image-product-mobile.jpg");
         background-size: 343px 240px;
@@ -146,9 +145,8 @@ footer a {
     }
 }
 
-@media screen and (max-width: 425px)
-{ 
-    div.text-container  {
+@media screen and (max-width: 425px) {
+    div.text-container {
         max-width: 343px;
         max-height: 371px;
         width: 343px;
@@ -157,52 +155,45 @@ footer a {
     }
 }
 
-@media screen and (max-width: 425px)
-{
+@media screen and (max-width: 425px) {
     div.text-container h3 {
         margin: auto;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 425px)
-{
+@media screen and (max-width: 425px) {
     div.text-container h2 {
         margin: auto;
         font-size: 32px;
     }
 }
 
-@media screen and (max-width: 425px)
-{
+@media screen and (max-width: 425px) {
     div.text-container p {
         margin: auto;
     }
 }
 
-@media screen and (max-width: 425px)
-{
+@media screen and (max-width: 425px) {
     div.price {
         margin: auto;
     }
 }
 
-@media screen and (max-width: 425px)
-{
+@media screen and (max-width: 425px) {
     button {
         padding: 1rem 4.5rem;
     }
 }
 
-@media screen and (max-width: 425px)
-{
+@media screen and (max-width: 425px) {
     button:hover {
         cursor: none;
     }
 }
 
-@media screen and (max-width: 425px)
-{
+@media screen and (max-width: 425px) {
     footer {
         font-size: 12px;
         text-align: center;
@@ -211,8 +202,7 @@ footer a {
     }
 }
 
-@media screen and (max-width: 375px)
-{
+@media screen and (max-width: 375px) {
     footer {
         font-size: 12px;
         text-align: center;
